@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #f5d9d5;
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar-brand {
+  color: #ea1c2c;
+  margin-right: 30px;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  color: #ea1c2c;
+}
+
+.headingGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+h1,
+.headingGroup > div {
+  color: white;
+  font-size: 4rem;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.headingGroup span {
+  color: #ea1c2c;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.info-section {
+  padding: 30px 0;
+}
+
+.title {
+  color: #ea1c2c;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.lollipop {
+  width: 128px;
+  height: auto;
+}
+
+.info {
+  color: #f498b8;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info {
+  display: block;
+  max-width: 60%;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+.sub-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-text {
+  width: 40%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: #ea1c2c;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+.button:hover {
+  background-color: #9b1520;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-container > button {
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 20%;
+  margin: 15px;
+  font-size: 20px;
+  outline: 0;
+  padding: 10px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.title > ul {
+  font-size: 20px;
+}
